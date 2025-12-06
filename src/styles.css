@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* ===== Primary Brand Colors ===== */
+  --primary: #232323;
+  --primary-light: #3a3a3a;
+  --primary-contrast: #ffffff;
+
+  /* ===== Secondary Gray Palette ===== */
+  --secondary: #4a4a4a;
+  --secondary-light: #6f6f6f;
+  --secondary-ultra-light: #d6d6d6;
+
+  /* ===== Accent Colors (Blue) ===== */
+  --accent: #007aff;
+  --accent-light: #5aa9ff;
+  --accent-xlight: #a8cfff;
+
+  /* ===== Neutral Colors ===== */
+  --black: #000000;
+  --gray-dark: #3d3d3d;
+  --gray: #bfbfbf;
+  --gray-soft: #f4f4f4;
+  --white: #ffffff;
+
+  /* ===== Semantic Colors ===== */
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --error: #e74c3c;
+  --info: #3498db;
+
+  /* ===== Background Levels ===== */
+  --background: #ffffff;
+  --background-soft: #f4f4f4;
+  --background-dark: #232323;
+
+  /* ===== Text Colors ===== */
+  --text-primary: #232323;
+  --text-secondary: #4a4a4a;
+  --text-light: #ffffff;
+}
+
+/* Optional utility classes */
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-soft {
+  background-color: var(--background-soft);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
