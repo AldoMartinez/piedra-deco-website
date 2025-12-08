@@ -30,7 +30,7 @@
 
   /* ===== Background Levels ===== */
   --background: #ffffff;
-  --background-soft: #f4f4f4;
+  --background-soft: #cfc8c3;
   --background-dark: #232323;
 
   /* ===== Text Colors ===== */
@@ -45,7 +45,7 @@
   background-color: var(--primary);
 }
 .text-primary {
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .bg-accent {
