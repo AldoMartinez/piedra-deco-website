@@ -141,12 +141,24 @@ html {
         justify-content: center;
 
         div {
-        padding-right: 0px;
+            padding-right: 0px;
+        }
     }
+
+    .description-row img {
+        max-height: unset;
     }
 }
 
+.description-row img {
+    max-height: 300px;
+}
+
+.remove-margin {
+    margin: 0;
+}
+
 /* Bootstrap classes */
-.row.full-height {
+.full-height {
     height: 100%;
 }
