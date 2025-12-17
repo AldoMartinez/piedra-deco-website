@@ -75,19 +75,44 @@ html {
     margin-bottom: 0;
 }
 
-.portfolio-button {
+.deco-button {
     padding: 16px 24px;
-    background-color: var(--background-dark);
     border-radius: 30px;
     text-decoration: none;
-    color: var(--text-light) !important;
     display: flex;
     height: 55px;
-    width: 200px;
+    font-size: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
     div {
         padding-right: 8px;
     }
+}
+
+.dark-button {
+    background-color: var(--background-dark);
+    color: var(--text-light) !important;
+    width: 200px;
+}
+
+.light-button {
+    background-color: var(--background-soft);
+    color: var(--text-primary) !important;
+    max-width: 250px;
+}
+
+.center-button {
+    margin: 0 auto;
+}
+
+.button-container {
+    padding: 8px;
+    margin-bottom: 32px;
+}
+
+.resources-button {
+    margin-bottom: 8px !important;
 }
 
 .page-title {
@@ -123,6 +148,10 @@ html {
     min-height: 0;
 }
 
+.location-text {
+    font-size: 14px;
+}
+
 /* Media Queries */
 
 /* Small and Medium devices (phones, tablets, 768px and below) */
@@ -144,13 +173,9 @@ html {
         margin-bottom: 30px;
     }
 
-    .portfolio-button {
+    .deco-button {
         width: 100%;
         justify-content: center;
-
-        div {
-            padding-right: 0px;
-        }
     }
 
     .description-row img {
