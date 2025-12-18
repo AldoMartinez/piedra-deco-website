@@ -1,6 +1,11 @@
 {
   "name": "piedra-deco",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": {
+    "name": "Aldo Martinez",
+    "email": "aldo.martinez@aldomartinez.dev",
+    "url": "https://www.aldomartinez.dev"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
